@@ -21,9 +21,7 @@ function Navbar() {
           <img src="https://i.imgur.com/bpo8Jnv.jpeg" alt="logo" className="logo" />
         </div>
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-          <li>
-            <Link to="/">Zoom</Link>
-          </li>
+         
           <li>
             <Link to="./pages/Home.js">Home</Link>
           </li>
