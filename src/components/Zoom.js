@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Zoom.css';
 
-const API_URL = "http://localhost:3000/portfolio";
+const API_URL = "http://localhost:3001/portfolio";
 
 function Zoom() {
   const [infoList, setInfoList] = useState([]); // Holds the fetched list
