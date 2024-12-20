@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes,  } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes,  } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Zoom from './components/Zoom';
+import Home from './components/pages/Home'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Zoom/>
         <Navbar/>
         <Routes>
-          {/* Define proper paths */}
+          <Route path='./components/pages/Home.js' element={<Home/>}/>
           
         </Routes>
       </Router>
